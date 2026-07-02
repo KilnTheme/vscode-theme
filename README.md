@@ -1,6 +1,6 @@
 # Kiln - VS Code Theme
 
-Warm, earthy terracotta color theme in **Dark** and **Light** variants, matching the Rether design system.
+Warm, earthy terracotta color theme in **Dark** and **Light** variants.
 
 ## Install (local)
 
