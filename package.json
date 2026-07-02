@@ -1,0 +1,46 @@
+{
+    "name": "kiln-theme",
+    "displayName": "Kiln",
+    "description": "Warm, earthy terracotta color theme - dark & light.",
+    "version": "1.0.0",
+    "publisher": "rether",
+    "icon": "icon.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KilnTheme/vscode-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/KilnTheme/vscode-theme/issues"
+    },
+    "homepage": "https://github.com/KilnTheme/vscode-theme#readme",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "color-theme",
+        "dark",
+        "light",
+        "terracotta",
+        "warm",
+        "earthy"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kiln Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kiln-dark-color-theme.json"
+            },
+            {
+                "label": "Kiln Light",
+                "uiTheme": "vs",
+                "path": "./themes/kiln-light-color-theme.json"
+            }
+        ]
+    }
+}
